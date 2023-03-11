@@ -67,10 +67,10 @@
 | name | fk(INT) | not null | название карточки |
 | user_id | fk(INT) | not null | создатель карточки |
 | terms_list_id | fk(INT) | not null | список терминов |
-| terms_number | INT | not null; default(0) | количество терминов |
+| terms_number | INT | not null | количество терминов |
 
 
-# Term (Категории товаров)
+# Term (Понятие)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
@@ -85,7 +85,7 @@
 | name | fk(INT) | not null | название теста |
 | user_id | fk(INT) | not null | создатель теста |
 | questions_list_id | fk(INT) | not null | список вопросов |
-| questions_number | INT | not null; default(0) | количество вопросов |
+| questions_number | INT | not null | количество вопросов |
 
 
 # Question (Вопрос)
