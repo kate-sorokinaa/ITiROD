@@ -1,8 +1,8 @@
-## KnowNow – a collaborative platform for creating and sharing study material.
-# Study new material, check your level of knowledge, connect with other students and learn new subjects together, make custom cards and tests and share them with others.
+# KnowNow – a collaborative platform for creating and sharing study material.
+## Study new material, check your level of knowledge, connect with other students and learn new subjects together, make custom cards and tests and share them with others.
 
 
-## Site mockup:
+# Site mockup:
 ![Landing Page](https://github.com/kate-sorokinaa/ITiROD/blob/main/lab2/Landing_Page.png)
 ![Buttom of Landing Page](https://github.com/kate-sorokinaa/ITiROD/blob/main/lab2/Buttom_of_Landing_Page.png)
 ![Sign In Page](https://github.com/kate-sorokinaa/ITiROD/blob/main/lab2/SignIn_Page.png)
@@ -16,7 +16,7 @@
 ![New Test Page](https://github.com/kate-sorokinaa/ITiROD/blob/main/lab2/New_Test_Page.png)
 
 
-## Main functions:
+# Main functions:
 1. Authorization
 2. Authentication
 3. Connecting with other students
@@ -28,8 +28,8 @@
 9. Searching for new flashcards and tests
 
 
-## Модели данных
-# Users (Пользователи)
+# Модели данных
+## Users (Пользователи)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
@@ -45,14 +45,14 @@
 | flashcard_list_id | fk(INT) | auto increment; not null; unique | список карточек пользователя |
 
 
-# Account_type (Тип аккаунта)
+## Account_type (Тип аккаунта)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
 | name | VARCHAR(100) | not null | название типа аккаунта |
 
 
-# User_picture (Фото профиля пользователя)
+## User_picture (Фото профиля пользователя)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
@@ -60,7 +60,7 @@
 | url | VARCHAR(300) | not null | путь к фото |
 
 
-# Flashcard (Карточка)
+## Flashcard (Карточка)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
@@ -70,7 +70,7 @@
 | terms_number | INT | not null | количество терминов |
 
 
-# Term (Понятие)
+## Term (Понятие)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
@@ -78,7 +78,7 @@
 | defenition | VARCHAR(1000) | not null | определение |
 
 
-# Test (Тест)
+## Test (Тест)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
@@ -88,7 +88,7 @@
 | questions_number | INT | not null | количество вопросов |
 
 
-# Question (Вопрос)
+## Question (Вопрос)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
@@ -96,7 +96,7 @@
 | answers_list_id | fk(INT) | not null | список ответов |
 
 
-# Answer (Ответ)
+## Answer (Ответ)
 |имя поля | тип | ограничения | описание |
 |:---:|:---:|:---:|:---:|
 | id | pk(INT) | auto increment; not null; unique | первичный ключ |
