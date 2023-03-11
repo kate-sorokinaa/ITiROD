@@ -1,4 +1,4 @@
-# KnowNow –– a collaborative platform for creating and sharing study material.
+# KnowNow – a collaborative platform for creating and sharing study material.
 Study new material, check your level of knowledge, connect with other students and learn new subjects together, make custom cards and tests and share them with others.
 # Site mockup:
 ![Landing Page](https://github.com/kate-sorokinaa/ITiROD/blob/main/lab2/Landing_Page.png)
